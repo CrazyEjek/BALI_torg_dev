@@ -1,0 +1,46 @@
+.footer {
+    background-color: rgba(58, 53, 53, 0.557);
+}
+.footer__container {
+}
+.footer__down {
+            padding-top: 20px;
+            padding-bottom: 40px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            flex-direction: column; /* Все элементы в столбик */
+            gap: 5px; /* Расстояние между input элементами по вертикали */
+            width: 400px; 
+            align-items: center;
+}
+.footer__logo {
+}
+.footer__copyright {
+}
+.footer__developers {
+}
+.footer__developer {
+}
+.footer__developer-link {
+}
+.footer__menu-items {
+   
+}
+.footer__menu-items-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.footer__menu-item {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; 
+    width: 32%; /* Ширина каждого блока для 3 колонок (всего 100%, с учётом отступов) */
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.footer__menu-link {
+}
