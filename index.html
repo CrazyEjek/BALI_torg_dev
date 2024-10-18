@@ -10,6 +10,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="./src/image/favicon/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
     <script src="js/script.js" type="module"></script>
+    <script src="js/slider.js" type="module"></script>
 </head>
 
 <body>
@@ -62,10 +63,18 @@
 
     <main class="main">
 
-        <section class="main__banner">
-            <div class="main__container-img">
-                <img src="./src/image/banner.png" alt="Рекламный баннер о платформе" width="1200px" height="400px">
-                </div> 
+        <section class="slider">
+            <div class="slides">
+                <div class="slide" style="background-color: lightcoral;">
+                    <img src="./src/slider/slide1.PNG" alt="">
+                </div>
+                <div class="slide" style="background-color: lightblue;"> <img src="./src/slider/slide2.PNG" alt=""></div>
+                <div class="slide" style="background-color: lightgreen;"> <img src="./src/slider/slide3.PNG" alt=""></div>
+            </div>
+            <div class="buttons">
+                <button id="prev">Prev</button>
+                <button id="next">Next</button>
+            </div>
             </section>
 
 
@@ -81,7 +90,7 @@
                     
                         <div class="main__hero-sell">
                             <h2>Продать оптом</h2>
-                            <p>Находите новых клиентов – ежедневно на нашей платформе размещают более 1000 заказов.</p>
+                            <p>Находите новых клиентов&nbsp;&mdash; ежедневно на&nbsp;нашей платформе размещают более 1000 заказов</p>
                             <form class="main__hero-form">
                                 <label for="name"></label>
                                 <input type="text" id="name" placeholder="Что хотите продать?">
@@ -97,7 +106,7 @@
 
                         <div class="main__hero-buy">
                             <h2>Купить оптом</h2>
-                            <p>Ускорьте процесс закупки, экономьте до 40%, выбирая из предложений 1,6 млн поставщиков.</p>
+                            <p>Ускорьте процесс закупки, экономьте до&nbsp;40%, выбирая из&nbsp;предложений поставщиков</p>
                             <form class="main__hero-form">
                                 <label for="name"></label>
                                 <input class="main__hero-input" type="text" id="name" placeholder="Что хотите купить?">
